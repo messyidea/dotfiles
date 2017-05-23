@@ -9,3 +9,5 @@ export PATH=$PATH:$JAVA_HOME/bin
 export PATH=$PATH:/home/messyidea/software/mongodb/mongodb-linux-x86_64-3.0.1/bin
 
 # alias zoneCluster="bash ~/zoneCluster.sh"
+
+export PATH=$PATH:/home/messyidea/software/scala-2.12.2/bin
