@@ -11,3 +11,7 @@ export PATH=$PATH:/home/messyidea/software/mongodb/mongodb-linux-x86_64-3.0.1/bi
 # alias zoneCluster="bash ~/zoneCluster.sh"
 
 export PATH=$PATH:/home/messyidea/software/scala-2.12.2/bin
+
+export QTDIR=/home/messyidea/ssd/home/software/QT/qt-5.9.1/5.9.1/gcc_64
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$QTDIR/lib
+export PATH=$PATH:$QTDIR/bin
