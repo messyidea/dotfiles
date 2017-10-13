@@ -9,13 +9,4 @@ alias ls='ls --color=auto'
 PS1='[\u@\h \W]\$ '
 
 source /home/messyidea/.profile
-alias pacman='sudo pacman'
-
-alias pdf='mupdf -C B8DABD'
-
-export PATH=$PATH:/home/messyidea/bin
-
-export PATH=$PATH:/home/messyidea/.pyenv/bin
-eval "$(pyenv init -)"
-eval "$(pyenv virtualenv-init -)"
 

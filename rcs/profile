@@ -1,3 +1,5 @@
+
+############ software
 export PATH=$PATH:/usr/local/go/bin
 export GOPATH=$HOME/go
 export PATH=$PATH:$GOPATH/bin
@@ -8,10 +10,24 @@ export PATH=$PATH:$JAVA_HOME/bin
 
 export PATH=$PATH:/home/messyidea/software/mongodb/mongodb-linux-x86_64-3.0.1/bin
 
-# alias zoneCluster="bash ~/zoneCluster.sh"
-
 export PATH=$PATH:/home/messyidea/software/scala-2.12.2/bin
 
-export QTDIR=/home/messyidea/ssd/home/software/QT/qt-5.9.1/5.9.1/gcc_64
-export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$QTDIR/lib
-export PATH=$PATH:$QTDIR/bin
+# export QTDIR=/home/messyidea/ssd/home/software/QT/qt-5.9.1/5.9.1/gcc_64
+# export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$QTDIR/lib
+# export PATH=$PATH:$QTDIR/bin
+## export DESTDIR=/home/messyidea/ssd/home/software/QT/qt-5.9.1/5.9.1/gcc_64/plugins
+# export QT_QPA_PLATFORM_PLUGIN_PATH=/home/messyidea/ssd/home/software/QT/qt-5.9.1/5.9.1/gcc_64/plugins
+
+############ others
+alias pacman='sudo pacman'
+
+alias pdf='mupdf -C B8DABD'
+
+export PATH=$PATH:/home/messyidea/bin
+alias set_http_proxy='export http_proxy=http://192.168.1.126:8123 && export https_proxy=http://192.168.1.126:8123'
+alias unset_http_proxy='unset http_proxy && unset https_proxy'
+
+############ pyenv
+export PATH=$PATH:/home/messyidea/.pyenv/bin
+eval "$(pyenv init -)"
+eval "$(pyenv virtualenv-init -)"
