@@ -1,9 +1,12 @@
+########### cuda
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/opt/cuda/lib64
 
 ############ software
 export PATH=$PATH:/usr/local/go/bin
 export GOPATH=$HOME/go
 export PATH=$PATH:$GOPATH/bin
 
+#export JAVA_HOME=/usr/java/jdk-11.0.1
 export JAVA_HOME=/usr/java/jdk1.8.0_121
 export CLASSPATH=.:%JAVA_HOME%/lib/dt.jar:%JAVA_HOME%/lib/tools.jar  
 export PATH=$PATH:$JAVA_HOME/bin  
@@ -31,3 +34,7 @@ alias unset_http_proxy='unset http_proxy && unset https_proxy'
 export PATH=$PATH:/home/messyidea/.pyenv/bin
 eval "$(pyenv init -)"
 eval "$(pyenv virtualenv-init -)"
+
+export PATH=$PATH:/home/messyidea/software/Android_SDK/platform-tools
+
+export EDITOR=/usr/bin/vim
